@@ -12,7 +12,10 @@ export function userReducer(state = userState, action) {
         users: [...state.users, action.payload],
       };
     case DELETE_USER:
-      return state;
+      return {
+        ...state,
+        users: state.users.filter((user) => user.id !== action.payload),
+      };
     default:
       return state;
   }
