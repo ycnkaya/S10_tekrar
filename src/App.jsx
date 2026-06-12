@@ -2,6 +2,8 @@ import './App.css';
 import { useDispatch, useSelector } from 'react-redux';
 import Cart from './components/Cart';
 import Users from './components/Users';
+import Product from './components/Product';
+import ProductsTansTack from './components/ProductsTansTack';
 import { deleteItem } from './redux/cartActions';
 import { deleteUser } from './redux/userActions';
 
@@ -90,6 +92,7 @@ function App() {
       <section className="content-grid">
         <Cart />
         <Users />
+        <ProductsTansTack/>
       </section>
     </main>
   );

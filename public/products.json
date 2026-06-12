@@ -1,0 +1,6 @@
+[
+  { "id": 101, "name": "Kablosuz Klavye", "price": 1400, "category": "Aksesuar", "stock": 12 },
+  { "id": 102, "name": "4K Monitör", "price": 8900, "category": "Ekran", "stock": 5 },
+  { "id": 103, "name": "Bluetooth Kulaklık", "price": 2400, "category": "Ses", "stock": 18 },
+  { "id": 104, "name": "Webcam", "price": 1750, "category": "Ofis", "stock": 9 }
+]
